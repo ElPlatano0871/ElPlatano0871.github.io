@@ -1,0 +1,97 @@
+
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(39, 40, 41, 0.90); /* Color de fondo gris con opacidad */
+    z-index: -1; /* Colocar el pseudoelemento detrás del contenido principal */
+}
+
+body {
+    background-image: url(https://images.freeimages.com/images/large-previews/4c2/texture-wall-1189592.jpg); /* Ruta a la imagen de textura de papel */
+    background-repeat: repeat; /* Repetir la imagen en todas las direcciones */
+    color: rgb(228 228 231);
+    font-family: Arial, sans-serif; /* Tipo de letra */
+}
+
+header {
+    margin: auto;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+footer {
+
+    text-align: center;
+    margin-top: 18%;
+}
+
+.container {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+a {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FFF6E0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.materiaprima {
+    display: flex;
+    justify-content: space-around; /* Distribuye los elementos horizontalmente */
+    align-items: flex-start; /* Alinea los elementos en la parte superior del contenedor */
+}
+
+.item {
+    text-align: center; /* Centra el contenido horizontalmente */
+    margin: 2%; /* Espaciado entre cada elemento .item */
+}
+
+.item img {
+    width: 70%; /* Establece el ancho de la imagen según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border: 8px solid #FFF6E0;
+    border-radius: 10px;
+}
+
+.ejemplomateriaprima {
+
+text-align: center;
+}
+
+.ejemplomateriaprima img {
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+.capitalitem img {
+    align-items: center;
+    margin: 3%;
+    width: 30%; /* Establece el ancho de la imagen según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border: 8px solid #FFF6E0;
+    border-radius: 10px;
+    
+}
+
+h3 {
+    text-align: left;
+}
+
+.ejemplopresupuestocapital {
+    margin-top: 5%;
+}
+
